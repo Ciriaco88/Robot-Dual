@@ -1,4 +1,7 @@
-// Configuración de los sliders táctiles
+var gateway = `ws://${window.location.hostname}/ws`;
+var websocket;
+
+//Configuración de los sliders táctiles
 const sliders = {
     'm1': { track: 'm1-track', thumb: 'm1-thumb', value: 0, touchId: null },
     'm2': { track: 'm2-track', thumb: 'm2-thumb', value: 0, touchId: null }
