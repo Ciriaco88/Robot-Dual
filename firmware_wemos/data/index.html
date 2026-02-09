@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Robot Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Robot Reciclado</h1>
+    <div id="status">Desconectado</div>
+
+
+    <div class="control-container">
+        <!-- Motor Izquierdo -->
+        <div class="slider-group">
+            <label>IZQUIERDO</label>
+            <div id="m1-track" class="touch-slider">
+                <div id="m1-thumb" class="touch-thumb"></div>
+            </div>
+        </div>
+
+        <!-- Motor Derecho -->
+        <div class="slider-group">
+            <label>DERECHO</label>
+            <div id="m2-track" class="touch-slider">
+                <div id="m2-thumb" class="touch-thumb"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

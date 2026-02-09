@@ -1,0 +1,4 @@
+.pio
+.vscode
+**/firmware_wemos/.pio
+**/firmware_uno/.pio
